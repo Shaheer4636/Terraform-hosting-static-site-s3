@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Muhammad Shaheer Siraj -  Profile</title>
+  <style>
+    /* Your CSS styles can go here */
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #007bff;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://media.istockphoto.com/id/1345778718/photo/cloud-computing-the-data-transfer-and-storage-concept-consists-of-a-white-polygonal.webp?b=1&s=170667a&w=0&k=20&c=GnhRL-ni1TLWITFWdYUAygacWEiSOK8nS_uo8pKw9rY='); /* Replace with your cloud symbol image URL */
+      background-size: cover;
+      opacity: 0.1;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    /* Style the image */
+    .cloud-image {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      background-color: #6dd5ed;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Add some animations */
+    header h1 {
+      animation: fadeInDown 1s;
+    }
+
+    main {
+      animation: fadeInUp 1s;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Vibrant box animations */
+    .vibrant-box {
+      background-color: #007bff;
+      color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1s;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Testimonials animation */
+    .testimonials {
+      animation: fadeInLeft 1s;
+    }
+
+    .testimonial-card {
+      animation: fadeInUp 1s;
+      transition: transform 0.2s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Muhammad Shaheer Siraj</h1>
+    <p>Welcome to my profile!</p>
+  </header>
+
+  <main>
+    <div class="center-image">
+      <img class="cloud-image" src="https://myterraformprojectwebsite2023.s3.amazonaws.com/profile.png" alt="Profile Image">
+    </div>
+
+    <div class="vibrant-box">
+      <h2>About Me</h2>
+      <p>Hello and welcome to my profile! I'm Shaheer, and I'm excited to connect with you here.</p>
+      <p>Let's explore the limitless possibilities of cloud technology together and pave the way for your business to thrive in a dynamic digital landscape.</p>
+      <p>My Expertise include:</p>
+      <ul>
+        <li>Kubernetes Mastery: Proficient in expertly managing, troubleshooting, and optimizing Kubernetes clusters for flawless application performance in a dynamic containerized environment.</li>
+        <li>AWS & GCP Solutions: Crafting robust cloud solutions tailored to your unique needs using AWS services like ECS, EC2, and GCP offerings for seamless deployment and maintenance.</li>
+        <li>GoLang Development: Harnessing the power of GoLang to build high-performance, scalable applications that align with your business growth.</li>
+        <li>Monitoring & Visualization Wizardry: Utilizing advanced tools such as Grafana and Prometheus to provide comprehensive insights into system health and performance.</li>
+        <li>Python Proficiency: Leveraging Python for automation, data analysis, and script development to enhance infrastructure and application efficiency.</li>
+      </ul>
+    </div>
+
+    <h2 class="testimonials">Reviews</h2>
+    <!-- Testimonial section remains unchanged -->
+
+    <div class="vibrant-box">
+      <h2>Contact Me</h2>
+      <p>If you have any questions, collaboration opportunities, or just want to say hello, feel free to reach out to me:</p>
+      <ul>
+        <li>Email: muhammadshaheer4636@gmail.com</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Muhammad Shaheer Siraj | All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
